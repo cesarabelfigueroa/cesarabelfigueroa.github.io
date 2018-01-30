@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Lato;
+    src: url(./assets/fonts/Lato-Regular.woff);
+}
+
+* { padding: 0; margin: 0; }
+html, body{
+    min-height: 100% !important;
+    height: 100%;
+    font-family: Lato;
+}
+
+body{
+    background: #e5e5e5;
+}
+
+html, body {padding:0; margin:0; height:100%;}
+footer{position: fixed; bottom: 0; left: 0; right: 0;}
+.ui-container{
+	height: 100%;
+	width: 100%;
+	background: #e5e5e5;
+	padding: 0;
+	display: flex;
+}
+
+.header-info{
+    padding: 15%;
+}
+
+.background-header{
+	display: inline-block;
+    background: lightslategrey;
+    width: 100%;
+    height: 20%;
+    left: 0;
+}
+
+.background-footer{
+    background: lightslategrey;
+    width: 100%;
+    height: 100px;
+}
+
+
+.form-container{
+    display: inline-block;
+    background: transparent;
+    position: absolute;
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    top: 10%;
+    left: 0;
+    right: 0;
+}
+
+.form-container > .form-header{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    background: cadetblue;
+}
+
+.form-body{
+    width: 100%;
+    background: white;
+    position: relative;
+    display: inline-flex;
+}
+
+.separator{
+    width: 50%;
+    min-height: 600px;
+    padding: 4%;
+}
+
+.separator.left{
+    border-right: 2px darkgray dashed;
+}
+
+.separator.rigt{
+    border-left: 2px darkgray dashed;
+}
+
+.form-footer{
+    min-height: 100px;
+    width: 100%;
+    background: lightslategrey;
+}
+
+.header-info > img{
+    border-radius: 100%;
+    width: 33%;
+    height: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-info{
+    color: white;
+    margin: auto;
+    width: 66%;
+    padding-top: 5%;
+}
+
+.header-info-text{
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    width: 66%;
+    text-align: center;
+}
+
+.item.study{
+    margin-top: 20px;
+}
+
+.item.title{
+    color: lightslategrey;
+}
